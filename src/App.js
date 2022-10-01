@@ -1,7 +1,6 @@
 import './App.css';
 import BlogApp from './components/BlogApp';
-import BlogEditing from './components/BlogEditing';
-import BlogForm from './components/BlogForm';
+
 
 function App() {
   return (
@@ -10,8 +9,6 @@ function App() {
 
 
       <BlogApp />
-      <BlogEditing />
-      <BlogForm />
     </div>
   );
 }

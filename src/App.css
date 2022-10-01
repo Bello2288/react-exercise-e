@@ -3,5 +3,83 @@
 }
 
 body {
-  background-color: blue;
+  background-image: linear-gradient(to bottom left, #d35c0d, #0b4ead);
+  height: 100%;
+}
+
+h2 {
+  color: #ecf36f;
+}
+
+.form-container {
+  border-bottom: 1.5px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 55px;
+}
+
+.title {
+  color: #ecf36f;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.title-box {
+  width: 447px;
+}
+
+.blog {
+  color: #ecf36f;
+  margin-right: 10px;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+.blog-body {
+  min-width: 500px;
+}
+.blog-list {
+  padding: 0 80px;
+}
+
+
+.main-blog-title {
+  margin-top: 75px;
+  list-style: none;
+}
+.main-blog-title h2 {
+  color:#ecf36f;
+}
+.main-blog-title p {
+  color: #d5d4d4;
+}
+
+.submit-btn {
+  background-color: #43e270;
+}
+.edit-btn {
+  background-color: #7ba3eb;
+}
+.delete-btn {
+  background-color: #d44343;
+}
+.save-btn {
+  background-color: #e3ca4b;
+  width: 55px;
+}
+.cancel-btn {
+  background-color: #d6933c;
+  width: 55px;
+}
+
+.buttons-box {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.edit-box {
+  display: flex;
+  flex-direction: column;
+}
+.edit-title, .edit-body {
+  color: #ecf36f;
+  font-size: 18px;
 }
